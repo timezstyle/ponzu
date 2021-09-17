@@ -11,12 +11,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/ponzu-cms/ponzu/system/cfg"
+	"github.com/timezstyle/ponzu/system/cfg"
 
-	"github.com/ponzu-cms/ponzu/system/item"
+	"github.com/timezstyle/ponzu/system/item"
 
-	"github.com/blevesearch/bleve"
-	"github.com/blevesearch/bleve/mapping"
+	bleve "github.com/blevesearch/bleve/v2"
+	"github.com/blevesearch/bleve/v2/mapping"
 )
 
 var (

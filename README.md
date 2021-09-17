@@ -1,8 +1,8 @@
 ![My friend, "Gotoro"](ponzu-banner.png)
 
 # Ponzu
-[![Current Release](https://img.shields.io/github/release/ponzu-cms/ponzu.svg)](https://github.com/ponzu-cms/ponzu/releases/latest)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/ponzu-cms/ponzu)
+[![Current Release](https://img.shields.io/github/release/ponzu-cms/ponzu.svg)](https://github.com/timezstyle/ponzu/releases/latest)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/timezstyle/ponzu)
 [![CircleCI Build Status](https://circleci.com/gh/ponzu-cms/ponzu.svg?style=shield)](https://circleci.com/gh/ponzu-cms/ponzu/tree/master)
 
 > Watch the [**video introduction**](https://www.youtube.com/watch?v=T_1ncPoLgrg)
@@ -51,7 +51,7 @@ For more detailed documentation, check out the [docs](https://docs.ponzu-cms.org
 ## Installation
 
 ```
-$ go get -u github.com/ponzu-cms/ponzu/...
+$ go get -u github.com/timezstyle/ponzu/...
 ```
 
 ## Requirements
@@ -74,7 +74,7 @@ Creates a project directory of the name supplied as a parameter immediately
 following the 'new' option in the $GOPATH/src directory. Note: 'new' depends on 
 the program 'git' and possibly a network connection. If there is no local 
 repository to clone from at the local machine's $GOPATH, 'new' will attempt to 
-clone the 'github.com/ponzu-cms/ponzu' package from over the network.
+clone the 'github.com/timezstyle/ponzu' package from over the network.
 
 Example:
 ```bash
@@ -201,7 +201,7 @@ to run the Admin and API on separate processes, you must call them with the
 Will backup your own custom project code (like content, add-ons, uploads, etc) so
 we can safely re-clone Ponzu from the latest version you have or from the network 
 if necessary. Before running `$ ponzu upgrade`, you should update the `ponzu`
-package by running `$ go get -u github.com/ponzu-cms/ponzu/...` 
+package by running `$ go get -u github.com/timezstyle/ponzu/...` 
 
 Example:
 ```bash
@@ -257,11 +257,11 @@ $ ponzu version --cli
 _A typical contribution workflow might look like:_
 ```bash
 # clone the repository and checkout ponzu-dev
-$ git clone https://github.com/ponzu-cms/ponzu path/to/local/ponzu # (or your fork)
+$ git clone https://github.com/timezstyle/ponzu path/to/local/ponzu # (or your fork)
 $ git checkout ponzu-dev
 
 # install ponzu with go get or from your own local path
-$ go get github.com/ponzu-cms/ponzu/...
+$ go get github.com/timezstyle/ponzu/...
 # or
 $ cd /path/to/local/ponzu 
 $ go install ./...
@@ -279,7 +279,7 @@ $ ponzu build && ponzu run
 
 # push to your origin:ponzu-dev branch and create a PR at ponzu-cms/ponzu
 $ git push origin ponzu-dev
-# ... go to https://github.com/ponzu-cms/ponzu and create a PR
+# ... go to https://github.com/timezstyle/ponzu and create a PR
 ```
 
 **Note:** if you intend to work on your own fork and contribute from it, you will
@@ -299,7 +299,7 @@ $ ponzu new --dev --fork=github.com/nilslice/ponzu /path/to/new/project
 - [golang.org/x/text/transform](https://golang.org/x/text/transform)
 - [golang.org/x/crypto/bcrypt](https://golang.org/x/crypto/bcrypt)
 - [golang.org/x/net/http2](https://golang.org/x/net/http2)
-- [github.com/blevesearch/bleve](https://github.com/blevesearch/bleve)
+- [github.com/timezstyle/bleve](https://github.com/timezstyle/bleve)
 - [github.com/nilslice/jwt](https://github.com/nilslice/jwt)
 - [github.com/nilslice/email](https://github.com/nilslice/email)
 - [github.com/gorilla/schema](https://github.com/gorilla/schema)

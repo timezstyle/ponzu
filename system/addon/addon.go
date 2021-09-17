@@ -6,8 +6,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/ponzu-cms/ponzu/system/db"
-	"github.com/ponzu-cms/ponzu/system/item"
+	"github.com/timezstyle/ponzu/system/db"
+	"github.com/timezstyle/ponzu/system/item"
 
 	"github.com/tidwall/sjson"
 )
